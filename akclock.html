@@ -1,0 +1,117 @@
+<!DOCTYPE html >
+<html>
+ <head>
+  <title> 时间艾克 </title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="ak.css">
+ </head>
+
+ <body>
+ <div id="bgdate">
+	<b id="bgimage"></b>
+	<table id="data" border="1">
+		<thead>
+			<tr>
+				<td colspan="7"></td>
+			</tr>
+			<tr>
+				<td>日</td><td>一</td><td>二</td><td>三</td><td>四</td><td>五</td><td>六</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+		</tbody>
+	</table>
+	<!--齿轮部分 -->
+	<div class="gearbox">
+		<div class="gear one" id="one">
+			<div id="gear-inner" class="eastem">
+				<div class="bar"></div>
+				<div class="bar"></div>
+				<div class="bar"></div>
+			</div>
+			<button id="btn2" disabled="disabled">+</button>
+		</div>
+		<div class="gear two" id="two" onclick="btns(this)">
+			<div id="gear-inner" class="wise">
+				<div class="bar"></div>
+				<div class="bar"></div>
+				<div class="bar"></div>
+			</div>
+			<button id="btn1">0</button>
+		</div>	
+		<div class="gear three" id="three">
+			<div id="gear-inner" class="eastem">
+				<div class="bar"></div>
+				<div class="bar"></div>
+				<div class="bar"></div>
+			</div>
+			<button id="btn3" disabled="disabled">-</button>
+		</div>
+		<div class="gear four large" id="four">
+			<div id="gear-inner" class="eastem">
+				<div class="bar"></div>
+				<div class="bar"></div>
+				<div class="bar"></div>
+				<div class="bar"></div>
+				<div class="bar"></div>
+				<div class="bar"></div>
+			</div>
+			<span id="span01"></span>
+		</div>
+		<div class="gear five" id="five">
+			<div id="gear-inner" class="wise">
+				<div class="bar"></div>
+				<div class="bar"></div>
+				<div class="bar"></div>
+			</div>
+		</div>
+		
+		<div class="gear six large" id="six">
+			<div id="gear-inner" class="eastem">
+				<div class="bar"></div>
+				<div class="bar"></div>
+				<div class="bar"></div>
+				<div class="bar"></div>
+				<div class="bar"></div>
+				<div class="bar"></div>
+			</div>
+			<span id="span02"></span>
+		</div>
+		<div class="gear seven" id="seven">
+			<div id="gear-inner" class="wise">
+				<div class="bar"></div>
+				<div class="bar"></div>
+				<div class="bar"></div>
+			</div>
+		</div>
+		<div class="gear eight large" id="eight">
+			<div id="gear-inner" class="eastem">
+				<div class="bar"></div>
+				<div class="bar"></div>
+				<div class="bar"></div>
+				<div class="bar"></div>
+				<div class="bar"></div>
+				<div class="bar"></div>
+			</div>
+			<span id="span03"></span>
+		</div>
+		<div class="gear nine" id="nine">
+			<div id="gear-inner" class="wise">
+				<div class="bar"></div>
+				<div class="bar"></div>
+				<div class="bar"></div>
+			</div>
+			<button id="btn4" disabled="disabled">@</button>
+		</div>
+	</div>
+ </div>
+  <script src="aktime.js"></script>
+  <script src="ak.js"></script>
+ </body>
+</html>
